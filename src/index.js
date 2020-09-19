@@ -1,5 +1,6 @@
 import { app, BrowserWindow } from 'electron';
 const path = require('path');
+require('update-electron-app')();
 const nativeImage = require('electron').nativeImage;
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 var image = nativeImage.createFromPath(__dirname + '/icon.png');

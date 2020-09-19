@@ -30,13 +30,13 @@
       },
       "electronPackagerConfig": {
         "packageManager": "npm",
-	"icon": "icons/win/icon.ico"
+        "icon": "icons/win/icon.ico"
       },
       "electronWinstallerConfig": {
         "name": "Dictionary",
-	"setupIcon": "./icons/win/icon.ico",
-	"iconUrl": "file://D:/Github/dict/desktop-app/Dictionary/icons/win/icon.ico",
-	"description":"A simple and clean Dictionary"
+        "setupIcon": "./icons/win/icon.ico",
+        "iconUrl": "file://D:/Github/Dictionary/icons/win/icon.ico",
+        "description": "A simple and clean Dictionary"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
@@ -48,15 +48,16 @@
         "packageName": "",
         "name": "Dictionary"
       },
-	"electronPublisherConfig":{
-	"owner":"gopaljigaur",
-	"name":"Dictionary"
-	}
+      "electronPublisherConfig": {
+        "owner": "gopaljigaur",
+        "name": "Dictionary"
+      }
     }
   },
   "dependencies": {
     "electron-compile": "^6.4.4",
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^1.5.0"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
