@@ -1,8 +1,9 @@
 {
   "name": "Dictionary",
   "productName": "Dictionary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple and Clean Dictionary",
+  "repository": "https://github.com/gopaljigaur/Dictionary",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -42,7 +43,7 @@
       "electronInstallerRedhat": {},
       "github_repository": {
         "owner": "gopaljigaur",
-        "name": "dict"
+        "name": "Dictionary"
       },
       "windowsStoreConfig": {
         "packageName": "",
