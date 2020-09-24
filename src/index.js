@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, globalShortcut } from 'electron';
 const path = require('path');
 require('update-electron-app')();
 const nativeImage = require('electron').nativeImage;
@@ -16,8 +16,14 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     icon: image,
     show: false,
-    backgroundColor:'#000000'
+    backgroundColor:'#000000',
+    devTools: false
   });
+  globalShortcut.register('Control+Shift+I', () => {
+    //this will get call for Control+Shift+I.
+	return false
+
+  })
   mainWindow.setMenuBarVisibility(false);
   mainWindow.once('ready-to-show', ()=> {
   	mainWindow.show();
