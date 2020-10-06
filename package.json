@@ -58,6 +58,7 @@
   "dependencies": {
     "electron-compile": "^6.4.4",
     "electron-squirrel-startup": "^1.0.0",
+    "indexeddb-export-import": "^2.1.1",
     "update-electron-app": "^1.5.0"
   },
   "devDependencies": {
