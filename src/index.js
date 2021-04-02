@@ -23,7 +23,7 @@ const createWindow = () => {
     //this will get call for Control+Shift+I.
 	return false
 
-  })
+ })
   mainWindow.setMenuBarVisibility(false);
   mainWindow.once('ready-to-show', ()=> {
   	mainWindow.show();
